@@ -25,6 +25,7 @@ public class TestBeanScope extends UnitTestBase {
 	
 	@Test
 	public void testSay2() {
+		
 		BeanScope beanScope  = super.getBean("beanScope");
 		beanScope.say();
 	}
